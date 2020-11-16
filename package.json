@@ -1,0 +1,23 @@
+{
+  "name": "f2-security-right",
+  "version": "1.0.0",
+  "description": "refact des droits ",
+  "main": "./dist/index.js",
+  "typings": "./src/index.ts",
+  "author": "Rufux",
+  "license": "ISC",
+  "scripts": {
+    "build": "rm -rf ./dist/ && tsc",
+    "test": "ts-mocha tests/**/*.test.ts"
+  },
+  "dependencies": {
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "ts-mocha": "^8.0.0"
+  }
+}
