@@ -5,8 +5,6 @@ f2-security-right est le module pour gérer les droits user et les droits sur le
 ## Installation
 yarn add f2-security-right
 
-## Auteur
-Rufux
 
 ## Utilisation
 - Ajout de droit via la matrix right
